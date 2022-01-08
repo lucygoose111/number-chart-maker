@@ -1,0 +1,1 @@
+del data_create_tools\randomNumber.txt
