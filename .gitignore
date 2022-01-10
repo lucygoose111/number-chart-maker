@@ -3,4 +3,4 @@ __pycache__
 *.pyc
 
 # Ignore created files
-mainData.json
+*.json

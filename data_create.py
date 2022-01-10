@@ -7,6 +7,8 @@ t_table_type = None
 num_chart_type = None
 num_visible = False
 
+input_file_name = input('Choose file name ')
+
 chart_type = input('Choose chart type: ')
 
 # If chart is a times table
@@ -14,7 +16,7 @@ if chart_type == 't_table':
 
 	input_choose_numdata_t_table = input("Random limit or choose limit: ")
  
-	if input_choose_numdata_t_table == "choice":
+	if input_choose_numdata_t_table == "choose":
 		input_choice_num = input('What number: ')
 		number = int(input_choice_num)
 
@@ -29,7 +31,7 @@ if chart_type == 't_table':
 elif chart_type == 'num_chart':
 	input_choose_numdata_num_chart= input("Random limit or choose limit: ")
 
-	if input_choose_numdata_num_chart == "choice":
+	if input_choose_numdata_num_chart == "choose":
 		input_choice_num = input('What number: ')
 		number = int(input_choice_num)
 
@@ -50,7 +52,7 @@ elif chart_type == 'num_chart':
 if number == None:
 	exit()
 # To create the JSON file the JavaScript will read
-with open('mainData.json', 'w') as main_data:
+with open(input_file_name+'.json', 'w') as main_data:
 	main_data.write('{')
 	main_data.write(f'"chartType": "{chart_type}",')
 	main_data.write(f'"number":{number},')
