@@ -1,6 +1,5 @@
 import random
 
-random_num = random.randint(1, 3000)
-
-with open('randomNumber.txt', 'w') as rng_num:
-	rng_num.write(str(random_num))
+def get_random_num(num_low, num_high):
+	random_num = random.randint(num_low, num_high)
+	return random_num

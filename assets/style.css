@@ -1,0 +1,25 @@
+body {
+
+    font-family: Helvetica;
+
+}
+
+.square {
+
+    display: flex;
+    width: 9rem;
+    height: 9rem;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;   
+
+}
+
+#square-container {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}

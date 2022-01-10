@@ -1,1 +1,2 @@
-# times-table-maker
+# Times Table Maker
+

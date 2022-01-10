@@ -3,6 +3,4 @@ __pycache__
 *.pyc
 
 # Ignore created files
-randomNumberGenData.json
-# randomNumber.txt
 mainData.json
