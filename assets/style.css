@@ -7,19 +7,21 @@ body {
 .square {
 
     display: flex;
-    width: 9rem;
-    height: 9rem;
+    width: 2.5vw;
+    height: 2.5vw;
     border: 1px solid black;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 3rem;   
+    font-size: 2rem;   
 
 }
 
 #square-container {
 
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 
 }
