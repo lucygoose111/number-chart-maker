@@ -4,3 +4,6 @@ __pycache__
 
 # Ignore created files
 *.json
+
+# Ignore private files
+commit.py
