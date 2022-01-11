@@ -1,2 +1,1 @@
-# Times Table Maker
-
+# Number Chart Maker
