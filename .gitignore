@@ -1,9 +1,12 @@
+PDF
+
 # Ignore compiled python files
 __pycache__
 *.pyc
 
 # Ignore created files
 *.json
+*.pdf
 
 # Ignore private files
 commit.py

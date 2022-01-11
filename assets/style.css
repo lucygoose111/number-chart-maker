@@ -1,6 +1,17 @@
+@font-face {
+    font-family: highway-gothic;
+    src: url('../fonts/highway-gothic.ttf');
+}
+
+:root {
+
+    --highway-gothic: highway-gothic;
+
+}
+
 body {
 
-    font-family: Helvetica;
+    font-family: var(--highway-gothic);
 
 }
 
@@ -8,19 +19,19 @@ body {
 
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 50px;
     border: 1px solid black;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2.5rem;   
+    font-size: 1.3rem;   
 
 }
 
 #square-container {
 
     display: grid;
-    grid-template-columns: repeat(10, 100px);
+    grid-template-columns: repeat(10, 50px);
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
 
